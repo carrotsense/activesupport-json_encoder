@@ -97,7 +97,7 @@ module ActiveSupport
         attr_accessor :encode_big_decimal_as_string
       end
 
-      self.encode_big_decimal_as_string = true
+      self.encode_big_decimal_as_string = false
     end
   end
 end
